@@ -26,8 +26,15 @@ Gumball
             this.resource[namespace][name] = obj;
         },
 
-        addMethod : function(methodName, cb) {
-            this.method[methodName] = cb;
+        addMethod : function(namespace, methodName, cb) {
+            if (cb) {
+                if (!this.method[namespace]) {
+                    this.method[namespace] = {};
+                }
+                this.method[namespace][methodName] = cb;
+            } else {
+                this.method[namespace] = methodName;
+            }
         }
 
     };
