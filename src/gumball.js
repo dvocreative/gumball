@@ -35,6 +35,14 @@ Gumball
             } else {
                 this.method[namespace] = methodName;
             }
+        },
+
+        getMethod : function(namespace, methodName) {
+            return (methodName) ? this.method[namespace][methodName] : this.method[namespace];
+        },
+
+        getResource : function(namespace, methodName) {
+            return (methodName) ? this.resource[namespace][methodName] : this.resource[namespace];
         }
 
     };
