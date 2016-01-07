@@ -1,6 +1,6 @@
 {
   "name": "gumball",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JS resource manager for (mostly) browser environments",
   "main": "src/gumball.js",
   "scripts": {
