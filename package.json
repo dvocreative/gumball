@@ -1,0 +1,25 @@
+{
+  "name": "gumball",
+  "version": "1.0.0",
+  "description": "JS resource manager for (mostly) browser environments",
+  "main": "src/gumball.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dvodonnell@github.com/dvocreative/gumball.git"
+  },
+  "keywords": [
+    "javascript",
+    "resource",
+    "management",
+    "namespacing"
+  ],
+  "author": "Dan O'Donnell <dan@dvoc.ca> (http://dvoc.ca)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvocreative/gumball/issues"
+  },
+  "homepage": "https://github.com/dvocreative/gumball#readme"
+}
